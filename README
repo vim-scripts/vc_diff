@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1249
+
+Programers often want to check the difference using cvs/svn diff when they change source codes on cvs/svn environment.This script do that.
+Step to use this script:
+1. cd source code directory which is controled by svn or cvs.
+2. run vim and execute ":Vcdiff" to make a patch file.
+3. move a cursor to source code name on vim.
+4. execute ":call Vcshow" to check difference between current and original codes.
